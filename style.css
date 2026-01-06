@@ -20,10 +20,13 @@ body {
     background-color: #F2F2F2;
 }
 
-/* Book */
 .book {
   position: relative;
-  width: min(80vw, 650px);
+
+  /* ⭐ 核心：同時限制寬 & 高 */
+  width: min(80vw, 420px);
+  height: min(85vh, 620px);
+
   aspect-ratio: 650 / 950;
 
   --book-translate: 0%;
@@ -35,6 +38,7 @@ body {
 
   z-index: 1;
 }
+
 
 
 .paper {
