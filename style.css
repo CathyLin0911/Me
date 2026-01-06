@@ -24,8 +24,8 @@ body {
   position: relative;
 
   /* ⭐ 核心：同時限制寬 & 高 */
-  width: min(80vw, 420px);
-  height: min(85vh, 620px);
+  width: min(90vw, 600px);
+  height: min(92vh, 820px);
 
   aspect-ratio: 650 / 950;
 
